@@ -1,7 +1,7 @@
 # Reviewable
 
  - Use namespace 'Reviewable' when calling module classes.
- - Uses the [Raty](https://github.com/wbotelhos/raty) jquery rating library 2.7.0. 
+ - Uses the [Raty](https://github.com/wbotelhos/raty) jquery rating library 2.4.5 (needs to be updated to 2.7.0). 
  - A new form field RatingField can be used via the standard SilverStripe form API.
  
 ## Configuration
