@@ -1,0 +1,23 @@
+{
+    "name": "camfindlay/silverstripe-reviewable",
+    "description": "A controller extension and custom FormField that adds review comments and star rating system to SilverStripe CMS.",
+    "type": "silverstripe-module",
+    "keywords": ["silverstripe", "review", "rating"],
+    "license": "BSD-3-Clause",
+    "homepage": "http://github.com/camfindlay/silverstripe-reviewable",
+    "authors": [
+        {
+            "name": "Cam Findlay",
+            "email": "cam@camfindlay.com"
+        }
+    ],
+    "require":
+    {
+        "composer/installers": "*",
+        "silverstripe/framework": "^3.2",
+        "silverstripe/cms": "^3.2"
+    },
+    "extra": {
+        "installer-name": "reviewable"
+    }
+}
