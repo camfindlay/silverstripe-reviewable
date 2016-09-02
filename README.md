@@ -2,7 +2,7 @@
 
 Allows reviews on SilverStripe pages or Controllers and includes comments and a 1-5 star rating.
 
-Builds on the great work from [Shea Dawson's Ratable module](https://github.com/sheadawson/silverstripe-rateable/)
+Builds on the great work from [Shea Dawson's Rateable module](https://github.com/sheadawson/silverstripe-rateable/)
 
 ## Installation
 
@@ -10,7 +10,7 @@ Requires SilverStripe CMS 3.x
 
 
 ```
-composer require camfindlay/reviewable
+composer require camfindlay/silverstripe-reviewable
 ```
 
 ## Licence
