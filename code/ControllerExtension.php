@@ -37,5 +37,27 @@ class ControllerExtension extends \DataExtension {
 
     }
 
+    public function averageRating() {
+    
+        if($reviews = \Reviewable\Review::get()->filter('ObjectID', $this->owner->ID)){
+
+            $countRating = $reviews->Count();
+            $reviewsTotal = 0;
+
+            foreach($reviews as $review) {
+
+                $reviewsTotal += $review->Rating;
+            
+            }
+
+            return round($reviewsTotal / $countRating);
+            
+        }else {
+
+            return 0;
+
+        }
+
+    }
         
 }
